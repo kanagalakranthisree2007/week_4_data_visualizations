@@ -19,7 +19,7 @@ import matplotlib.pyplot as plt
 - pandas → for data loading, cleaning, and analysis.
 - matplotlib → for creating charts.
 
-### 2.load data
+### 2. Load Data
 def load_data(filepath):
     df = pd.read_csv(filepath)
     print("✅ Data loaded successfully!")
